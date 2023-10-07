@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="animation.js"></script>
 
@@ -26,7 +27,7 @@
             </div>
             </nav>
             <div class="main-text">
-                <h1>I'm
+                <h1 id="h">I'm
                     <br><span class="input"></span>
                 </h1>
                 <a href="Resume.pdf" download class="resume">
@@ -108,6 +109,30 @@
             </section>
         </section>
     </article>
+    <section id="ContactMe">
+        <h1>
+            Let's Get In Touch
+        </h1>
+        <form name="form">
+            <p>
+                <label for="name">Enter Your Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter Name" required>
+            </p>
+            <p>
+                <label for="mail">Enter Email</label>
+                <br>
+                <input type="email" name="mail" id="mail" placeholder="example@example.com" required>
+            </p>
+            <p>
+                <label for="message">Enter Your Message</label>
+                <br>
+                <textarea name="message" id="message""30" rows="10" placeholder="Enter Message" required></textarea>
+            </p>
+            <p>
+                <input type="button" value="Submit" id="but" onclick="sendEmail(); this.form.reset();">
+            </p>
+        </form>
+    </section>
 </body>
 
 </html>

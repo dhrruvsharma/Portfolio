@@ -231,3 +231,45 @@ span {
     color: white;
     text-align: center;
 }
+
+#ContactMe {
+    background-color: black;
+}
+
+#ContactMe h1 {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#form p {
+    padding-top: 3rem;
+}
+
+label,
+input {
+    color: white;
+    background-color: transparent;
+    height: 3rem;
+    text-align: center;
+    width: 35rem;
+    font-size: 2rem;
+}
+
+textarea {
+    background-color: transparent;
+    resize: none;
+    width: 25rem;
+    height: 20rem;
+    color: white;
+    font-size: 2rem;
+}
+
+#but {
+    width: 8rem;
+}

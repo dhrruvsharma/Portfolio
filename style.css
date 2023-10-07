@@ -271,5 +271,6 @@ textarea {
 }
 
 #but {
+    margin-top: 1vh;
     width: 8rem;
 }

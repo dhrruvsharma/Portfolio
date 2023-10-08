@@ -151,6 +151,27 @@
         width: 15rem;
         padding-bottom: 5rem;
     }
+
+    #git {
+        background-color: black;
+        font-size: 25px;
+    }
+
+    #linkedin {
+        background-color: black;
+        font-size: 25px;
+    }
+
+    .fa {
+        background-color: black;
+        text-align: center;
+        background-color: white;
+        padding: 5rem;
+        width: 2rem;
+        text-decoration: none;
+        border-radius: 50%;
+        font-size: 5px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -225,5 +246,16 @@
 
     input {
         height: auto;
+    }
+
+    .fa {
+        background-color: black;
+        text-align: center;
+        background-color: white;
+        padding: 8rem;
+        width: 2rem;
+        text-decoration: none;
+        border-radius: 50%;
+        font-size: 5px;
     }
 }

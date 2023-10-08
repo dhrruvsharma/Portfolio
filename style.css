@@ -287,3 +287,33 @@ textarea {
     margin-top: 1vh;
     width: 8rem;
 }
+
+footer {
+    padding-top: 5rem;
+    text-align: center;
+    background-color: black;
+}
+
+hr {
+    border-color: red;
+}
+
+footer a {
+    font-size: 3rem;
+}
+
+.fa {
+    text-align: center;
+    background-color: white;
+    padding: 4rem;
+    width: 2rem;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+#git,
+#linkedin {
+    font-size: 40px;
+    background-color: black;
+}

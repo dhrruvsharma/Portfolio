@@ -158,10 +158,12 @@ span {
     max-width: 21.4rem;
     margin: 0 auto;
     margin-top: 3vh;
+    transform: scale(1);
+    transition: transform 250ms;
 }
 
 #container1:hover {
-    max-width: 22.4rem;
+    transform: scale(1.1);
 }
 
 

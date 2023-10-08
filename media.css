@@ -222,4 +222,8 @@
         width: 20rem;
         padding-bottom: 5rem;
     }
+
+    input {
+        height: auto;
+    }
 }

@@ -118,6 +118,13 @@ span {
     flex: content;
 }
 
+.flex-container .hidden {
+    display: block;
+    min-height: 2rem;
+    flex: content;
+    display: none;
+}
+
 .flex-container .item a {
     font-size: 2rem;
     color: white;
@@ -234,6 +241,7 @@ span {
 
 #ContactMe {
     background-color: black;
+    padding-bottom: 2rem;
 }
 
 #ContactMe h1 {
@@ -245,6 +253,9 @@ span {
 form {
     text-align: center;
     padding-top: 3rem;
+    border: .3rem solid red;
+    margin: 1rem 26rem .5rem 24rem;
+    box-shadow: .3rem .3rem white;
 }
 
 #form p {

@@ -1,0 +1,67 @@
+@media (max-width: 950px) {
+    .name p {
+        font-size: 1.5rem;
+        line-height: 175%;
+    }
+
+    #container1 {
+        max-width: 30.4rem;
+        height: 200%;
+    }
+
+    .container img {
+        height: 28rem;
+    }
+
+    #container1 .tag {
+        font-size: 2rem;
+    }
+
+    .button:hover {
+        width: 14.5rem;
+        transition: width .6s;
+    }
+
+    .main-text h1 {
+        line-height: 134px;
+    }
+
+    .button {
+        font-size: 2rem;
+        width: 14rem;
+    }
+
+    .button:hover {
+        width: 18.3rem;
+    }
+
+    .flex-container .item a {
+        font-size: 3rem;
+    }
+
+    .flex-container .item a:hover {
+        font-size: 3.4rem;
+    }
+
+    .main-img {
+        text-align: right;
+    }
+}
+
+@media (max-width: 650px) {
+    .main-img {
+        text-align: center;
+    }
+
+    .main-text h1 {
+        line-height: 100px;
+    }
+
+    .resume {
+        display: none;
+    }
+
+    #AboutMe {
+        margin-top: -29rem;
+    }
+}

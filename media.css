@@ -127,6 +127,10 @@
         line-height: 90px;
     }
 
+    nav {
+        gap: 25rem;
+    }
+
     .main-img {
         text-align: center;
         /* width: 54vw; */
@@ -159,7 +163,7 @@
     }
 
     nav {
-        gap: 26rem;
+        gap: 23rem;
     }
 
     .flex-container .item a {

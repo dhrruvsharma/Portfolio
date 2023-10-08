@@ -176,11 +176,16 @@
 
 @media (max-width: 450px) {
     .main-text h1 {
-        font-size: 10rem;
+        font-size: 7rem;
+        line-height: 70px;
+    }
+
+    .main-img img {
+        width: 50rem;
     }
 
     .input {
-        font-size: 10rem;
+        font-size: 7rem;
     }
 
     nav {
